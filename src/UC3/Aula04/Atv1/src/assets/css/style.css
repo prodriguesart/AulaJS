@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaque {
+    color: red;
+    font-weight: bold;
+}
+
+/* .borda {
+    border-block-end-width: thick;
+    writing-mode: horizontal-tb;
+    background-color: #91D0FF;
+    border-end-start-radius: 80px 80px;
+} */
+
+.borda2 {
+    border-width: 30px;
+    border-style: solid;
+    border-color: #91D0FF;
+    padding: 15px;
+}
+
+#eventoParagrafo {
+    transition: background-color 0.5s;
+}
+
+#eventoParagrafo.hover {
+    background-color: lightblue;
+}
+
+#mudarFundo {
+    background-color: yellow;
+}
